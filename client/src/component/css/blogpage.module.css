@@ -1,0 +1,147 @@
+.mainblog{
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto;
+}
+.leftside{
+    background-color: rgb(46, 46, 45);
+    padding: 10px;
+}
+
+.leftside button{
+    background-color: rgb(46, 46, 45);
+    padding: 5px;
+    width: 100%;
+    color: white;
+    float: left;
+    cursor: pointer;
+}
+.leftside  :hover{
+    background-color: rgb(34, 119, 52);
+   
+}
+
+.rightside{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: rgb(46, 46, 45);
+}
+.card{
+    
+    width: 250px;
+    height: 300px;
+    background-color: rgb(46, 46, 45);
+    margin: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 1px  rgba(243, 245, 243, 0.4);
+}
+
+.bcimage{
+    /* background-image: url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=300"); */
+    background-size: cover;
+    /* background-color: red; */
+    width: 100%;
+    border-radius: 7px;
+    height: 150px;
+    background-position: center;
+}
+.icon{
+    font-size: 30px;
+    /* padding: 20px; */
+    /* margin: 20px; */
+    /* color: rebeccapurple; */
+    float: right;
+}
+.card p{
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    color: red;
+    width: 100%;
+    height: 60px;
+}
+.create_blog{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(34, 33, 33);
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px hsla(0, 3%, 92%, 0.47);
+    left: 20%;
+}
+.select_category{
+    color: rgb(122, 22, 22);
+    font-size:20px ;
+    width: 191px;
+}
+.dpdmanu{
+    width: 190px;   
+    border: 1px solid black;
+}
+.dpdmanu label{
+    width: 190px;   
+    border: 1px solid black;
+    padding: 5px;
+}
+.dpdmanu label input{
+    float: right;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.dropdown{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: rgb(34, 33, 33);
+}
+.dropdownleft{
+    
+    margin: 10px;
+    background-color: rgb(34, 33, 33);
+}
+.dropdownleft select ,
+.dropdownleft button, 
+.dropdownleft  input{ 
+    margin: 4px; 
+    width: 200px;
+    height: 38px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(34, 33, 33);
+}
+.submitpost{
+    width: 300px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(17, 19, 17);
+    color: rgb(174, 171, 171);
+}
+
+
+@media screen and (max-width:1285px){
+    .rightside{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        background-color: rgb(46, 46, 45);
+    }
+}
+@media screen and (max-width:1025px){
+    .rightside{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        background-color: rgb(46, 46, 45);
+    }
+}
+@media screen and (max-width:700px){
+    .rightside{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        background-color: rgb(46, 46, 45);
+    }
+}

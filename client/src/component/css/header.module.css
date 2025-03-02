@@ -1,0 +1,21 @@
+.header2{
+    background-color: rgb(34, 33, 33);
+  margin: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  /* padding: 20px; */
+}
+
+.header1{
+    background-color: rgb(34, 33, 33);
+  /* margin: -8px; */
+  padding: 20px;
+}
+.logout_button{
+  background-color: rgb(34, 33, 33);
+  cursor: pointer;
+  box-shadow: none;
+  text-decoration: none;
+  
+}

@@ -1,0 +1,49 @@
+.imgdiv{
+    width: auto;
+    height: 300px;
+    margin: 5% 5% 10px 5%;
+    border-radius: 4px;
+}
+
+.divicon{
+    float: right;
+    font-size: 25px;
+    margin:0px 5%;
+}
+.anoter center{
+    font-size: 20px;
+    font-weight: 600px;
+
+}
+.anoter p{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-left: 5%;
+
+}
+.anoter textarea{
+    font-size: 16px;
+    font-weight: 400px;
+    width: 90%;
+    margin-left: 5%;
+
+}
+.anoter button{
+    font-size: 16px;
+    font-weight: 400px;
+   border-radius: 5px;
+   width: 80px;
+    float: right;
+    margin-right: 5%;
+    background-color: green;
+    color: rgb(244, 242, 242);
+
+}
+.showcomment{
+   
+   border-radius: 5px;
+   border: 1px solid black;
+   width: 90%;
+    float: right;
+    margin: 10px 5% 10px 5%;
+}

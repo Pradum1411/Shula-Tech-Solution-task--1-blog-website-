@@ -1,0 +1,42 @@
+
+.container{
+    width :400px;
+    /* margin: 100px; */
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(77, 77, 77);
+    padding: 10px 0px 30px 0px;
+    box-shadow: inset 2px 6px 8px rgba(255, 255, 255, 1);
+
+}
+.container input{
+    background-color: rgb(77, 77, 77);
+    font-size: 20px;
+    color: white;
+    border: none;
+    margin: 4px;
+    padding: 3px;
+    border-bottom: 1px solid black;
+}
+.container h2, span{
+    color: white;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.other{
+    color: white;
+    font-size: 20px;
+    margin: 20px 10px 150px 10px;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+.container button{
+    color: rgb(238, 25, 25);
+    font-size: 20px;
+    margin: 10px;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
