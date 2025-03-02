@@ -1,3 +1,11 @@
+# Setup Project
+Go to client Folder -- cd client
+run command -- npm run dev
+
+Go to Server Folder -- cd server
+run command -- npm start
+
+
 # Login Page
 ![loginpage](https://github.com/user-attachments/assets/6bf118e8-e6e7-4018-8d4e-17ad205e2ca8)
 
